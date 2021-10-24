@@ -207,18 +207,22 @@
         .first-reason :nth-child(2){
             font-size: 12px;
             font-weight: 400;
-            margin-bottom: 65px;
+            margin-top: -10px;
+
         }
         .second-reason :nth-child(2){
             font-size: 12px;
             font-weight: 400;
-            margin-bottom: 65px;
+            margin-top: -10px;
+            margin-left: 26px;
+            width: 86px;
         }
         .third-reason :nth-child(2){
             font-size: 12px;
             font-weight: 400;
-            margin-bottom: 65px;
+            margin-top: -10px;
             width: 10px;
+            margin-left: 40px;
         }
         .first-reason{
             margin-left:35px;
