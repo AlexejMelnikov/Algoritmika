@@ -109,6 +109,9 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
+  .img-footer{
+      display: none;
+  }
 }
 @media screen and (min-width: 835px) and (max-width: 991px) {
   * {
@@ -240,6 +243,9 @@
   .first-reason {
     margin-left: 60px;
   }
+  .img-footer{
+      display: none;
+  }
   @media screen and (min-width: 992px) and (max-width: 1440px) {
     * {
       margin: 0;
@@ -362,10 +368,9 @@
       margin-left: 35px;
     }
     footer {
-      margin-top: -360px;
+      margin-top: 0px;
       display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
+      flex-direction: column;
     }
     .first-reason {
       margin-left: 60px;
