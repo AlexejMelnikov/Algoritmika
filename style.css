@@ -10,12 +10,12 @@
     font-family: Roboto Slab;
     font-weight: bold;
     font-size: 26px;
-    line-height: 26, 36px;
+    line-height: 26.36px;
     width: 450px;
   }
   .main-title {
     width: 240px;
-    height: 43, 34px;
+    height: 43.34px;
     border: 1px solid black;
     padding-left: 35px;
   }
@@ -109,7 +109,7 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
-  .img-footer{
+  .img-reason{
       display: none;
   }
 }
@@ -140,7 +140,7 @@
   }
   .main-title {
     width: 211px;
-    height: 53, 34px;
+    height: 53.34px;
     margin-left: 76px;
   }
   .wrapper {
@@ -243,7 +243,7 @@
   .first-reason {
     margin-left: 60px;
   }
-  .img-footer{
+  .img-reason{
       display: none;
   }
   @media screen and (min-width: 992px) and (max-width: 1440px) {
@@ -273,7 +273,7 @@
     }
     .main-title {
       width: 211px;
-      height: 53, 34px;
+      height: 53.34px;
       margin-left: 76px;
     }
     .wrapper {
@@ -370,7 +370,7 @@
     footer {
       margin-top: 0px;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
     }
     .first-reason {
       margin-left: 60px;
