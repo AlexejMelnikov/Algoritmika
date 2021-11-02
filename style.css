@@ -1,22 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600&family=Roboto:wght@300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.co9m/css2?family=Roboto+Slab:wght@500;600&family=Roboto:wght@100;300;400;500;700&display=swap");
-@media screen and (min-width: 375px) and (max-width: 834px) {
+@media screen and (min-width: 375px) and (max-width: 860px) {
   body {
     margin-top: -22px;
     margin-left: 1px;
   }
-
+  .img-reason {
+    display: none;
+  }
   .title {
     font-family: Roboto Slab;
     font-weight: bold;
     font-size: 26px;
-    line-height: 26.36px;
+    line-height: 26, 36px;
     width: 450px;
+  }
+  article > p:first-child {
+    margin-top: 21px;
+    padding-bottom: 9px;
+  }
+  article > p:nth-child(2) {
+    margin-top: 2px;
   }
   .main-title {
     width: 240px;
-    height: 43.34px;
-    border: 1px solid black;
+    height: 43, 34px;
     padding-left: 35px;
   }
   .wrapper {
@@ -27,22 +35,24 @@
   }
   .pic {
     display: block;
-    height: 181px;
-    width: 182px;
+    height: 159px;
+    width: 166px;
+    margin-bottom: 0px;
     /* padding: 338px  277.71px 101.1px; */
     margin-left: 101.1px;
     margin-right: 103.45px;
   }
   img.pic {
-    margin-bottom: -21px;
+    margin-top: 12px;
+    margin-bottom: -22px;
     src: "Group 91.png";
   }
-  .first-p {
-    margin-top: 20px;
+  article.first-p {
+    margin-top: 0px;
     margin-left: 34px;
     font-family: Roboto;
     font-size: 12px;
-    margin-bottom: 35px;
+    margin-bottom: 0px;
     width: 311px;
     height: 219px;
     font-weight: 600;
@@ -57,14 +67,14 @@
     font-family: Roboto;
     font-weight: 700;
     font-size: 12px;
-    margin-top: 45.71px;
+    margin-top: 69.71px;
     margin-bottom: 1.8px;
   }
   .second-reason :first-child {
     font-family: Roboto;
     font-weight: 700;
     font-size: 12px;
-    margin-top: 45.71px;
+    margin-top: 69.71px;
     margin-right: 70px;
     width: 100px;
     margin-bottom: 1.8px;
@@ -74,22 +84,23 @@
     font-weight: 700;
     font-size: 12px;
     width: 80px;
+    margin-top: 12.71px;
     margin-bottom: 1.8px;
   }
   .first-reason :nth-child(2) {
     font-size: 12px;
     font-weight: 400;
-    margin-top: 0.83px;
+    margin-top: 3.83px;
   }
   .second-reason :nth-child(2) {
     font-size: 12px;
     font-weight: 400;
-    margin-top: 0.83px;
+    margin-top: 2.83px;
   }
   .third-reason :nth-child(2) {
     font-size: 12px;
     font-weight: 400;
-    margin-top: 0.83px;
+    margin-top: 3.83px;
     width: 10px;
   }
   .first-reason {
@@ -108,9 +119,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-  }
-  .img-reason{
-      display: none;
+    margin-bottom: 50px;
   }
 }
 @media screen and (min-width: 835px) and (max-width: 991px) {
@@ -140,7 +149,7 @@
   }
   .main-title {
     width: 211px;
-    height: 53.34px;
+    height: 53, 34px;
     margin-left: 76px;
   }
   .wrapper {
@@ -243,137 +252,114 @@
   .first-reason {
     margin-left: 60px;
   }
-  .img-reason{
-      display: none;
+}
+@media screen and (min-width: 862px) and (max-width: 1400px) {
+  body {
+    margin-top: -22px;
+    margin-left: 1px;
   }
-  @media screen and (min-width: 992px) and (max-width: 1440px) {
-    * {
-      margin: 0;
-      padding: 0;
-    }
-  
-    h1.title {
-      display: inline-block;
-      margin-top: 91px;
-      margin-right: 951px;
-      margin-left: 124px;
-      width: 365px;
-      height: 93px;
-      font-weight: 700;
-      font-size: 55px;
-      line-height: 56px;
-      font-family: Roboto Slab;
-    }
-  
-    .title {
-      font-family: Roboto Slab;
-      font-weight: 700;
-      font-size: 32px;
-      line-height: 32px;
-    }
-    .main-title {
-      width: 211px;
-      height: 53.34px;
-      margin-left: 76px;
-    }
-    .wrapper {
-      width: 1440px;
-      height: 1046px;
-      border: 1px solid black;
-    }
-  
-    img.pic {
-      display: block;
-      margin-left: 565.45px;
-      height: 181.86px;
-      width: 182.44px;
-      margin-top: -590px;
-    }
-    img {
-      src: "Group 9.png";
-    }
-  
-    .first-p {
-      margin-left: 72px;
-      font-family: Roboto;
-      font-size: 14px;
-      margin-bottom: 395.1px;
-      font-weight: 400;
-    }
-    .first-p p {
-      font-family: Roboto;
-      width: 652px;
-      height: 374px;
-      margin-top: 202px;
-      margin-left: 124px;
-      line-height: 22px;
-      font-weight: 700;
-      word-spacing: 2px;
-    }
-  
-    .first-reason:first-child {
-      font-family: Roboto;
-      font-weight: 800;
-      font-size: 15px;
-      margin-top: 472px;
-      margin-left: 65px;
-      width: 86px;
-    }
-    .second-reason :first-child {
-      font-family: Roboto;
-      font-weight: 800;
-      font-size: 15px;
-      margin-top: 472px;
-      margin-left: 26px;
-      width: 86px;
-    }
-    .third-reason :first-child {
-      font-family: Roboto;
-      font-weight: 700;
-      font-size: 15px;
-      margin-top: 472px;
-      margin-left: 46px;
-      width: 86px;
-    }
-  
-    .first-reason :nth-child(2) {
-      font-size: 12px;
-      font-weight: 400;
-      margin-top: 10px;
-    }
-    .second-reason :nth-child(2) {
-      font-size: 12px;
-      font-weight: 400;
-      margin-top: 10px;
-      margin-left: 26px;
-      width: 86px;
-    }
-    .third-reason :nth-child(2) {
-      font-size: 12px;
-      font-weight: 400;
-      margin-top: 10px;
-      width: 10px;
-      margin-left: 40px;
-    }
-    .first-reason {
-      margin-left: 35px;
-      width: 86px;
-    }
-    .second-reason {
-      margin-left: 30px;
-      width: 86px;
-    }
-    .third-reason {
-      width: 186px;
-      margin-left: 35px;
-    }
-    footer {
-      margin-top: 0px;
-      display: flex;
-      flex-direction: row;
-    }
-    .first-reason {
-      margin-left: 60px;
-    }
-    
-Ъ
+
+  .title {
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 26, 36px;
+    width: 450px;
+  }
+  .main-title {
+    width: 240px;
+    height: 43, 34px;
+    border: 1px solid black;
+    padding-left: 35px;
+  }
+  .wrapper {
+    width: 374px;
+    height: 777px;
+    border: 1px solid black;
+    padding-top: 56px;
+  }
+  .pic {
+    display: block;
+    height: 181px;
+    width: 182px;
+    /* padding: 338px  277.71px 101.1px; */
+    margin-left: 101.1px;
+    margin-right: 103.45px;
+  }
+  img.pic {
+    margin-bottom: -21px;
+    src: "Group 91.png";
+  }
+  .first-p {
+    margin-top: 20px;
+    margin-left: 34px;
+    font-family: Roboto;
+    font-size: 12px;
+    margin-bottom: 35px;
+    width: 311px;
+    height: 219px;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+  first-p p {
+    width: 611px;
+    height: 219px;
+    /* padding-right: 2px; */
+  }
+  .first-reason :first-child {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 45.71px;
+    margin-bottom: 1.8px;
+  }
+  .second-reason :first-child {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 45.71px;
+    margin-right: 70px;
+    width: 100px;
+    margin-bottom: 1.8px;
+  }
+  .third-reason :first-child {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 12px;
+    width: 80px;
+    margin-bottom: 1.8px;
+  }
+  .first-reason :nth-child(2) {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 0.83px;
+  }
+  .second-reason :nth-child(2) {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 0.83px;
+  }
+  .third-reason :nth-child(2) {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 0.83px;
+    width: 10px;
+  }
+  .first-reason {
+    margin-left: 35px;
+    width: 86px;
+  }
+  .second-reason {
+    margin-left: 30px;
+    width: 86px;
+  }
+  .third-reason {
+    width: 186px;
+    margin-left: 35px;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
